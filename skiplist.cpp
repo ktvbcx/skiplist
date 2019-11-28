@@ -169,8 +169,8 @@ void print_sl(skip_list *sl)
 // 释放跳跃表
 void sl_free(skip_list *sl)
 {
-    if(!sl)
-        return;
+	if (!sl)
+		return;
 	
     Node *q=sl->head;
 	Node *next;
